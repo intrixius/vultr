@@ -194,6 +194,7 @@ func serversList(cmd *cli.Cmd) {
 		tabsPrint(Columns{
 			"SUBID",
 			"STATUS",
+			"POWER STATUS",
 			"IP",
 			"NAME",
 			"OS",
@@ -207,6 +208,7 @@ func serversList(cmd *cli.Cmd) {
 			tabsPrint(Columns{
 				server.ID,
 				server.Status,
+				server.PowerStatus,
 				server.MainIP,
 				server.Name,
 				server.OS,
