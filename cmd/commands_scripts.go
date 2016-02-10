@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	vultr "github.com/JamesClonk/vultr/lib"
+	vultr "github.com/intrixius/vultr/lib"
 	"github.com/jawher/mow.cli"
 )
 

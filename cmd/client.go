@@ -1,6 +1,6 @@
 package cmd
 
-import vultr "github.com/JamesClonk/vultr/lib"
+import vultr "github.com/intrixius/vultr/lib"
 
 func GetClient() *vultr.Client {
 	return vultr.NewClient(*apiKey, nil)

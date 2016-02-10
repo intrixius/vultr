@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/JamesClonk/vultr",
+	"ImportPath": "github.com/intrixius/vultr",
 	"GoVersion": "go1.4.1",
 	"Packages": [
 		"./..."
